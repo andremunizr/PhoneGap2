@@ -1,0 +1,33 @@
+/* 
+    Document   : kilo
+    Created on : 08/10/2013, 13:37:39
+    Author     : Convidado
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#date ul li {
+    position: relative;
+}
+
+#date ul li span {
+    color: #FFFFFF;
+    text-shadow: 0 1px 2px rgba(0,0,0,.7);
+}
+
+#date ul li .delete {
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    font-size: 12px;
+    line-height: 30px;
+    padding: 0 10px;
+    border-width: 0 5px;
+    background-image: -webkit-linear-gradient(top,#666,#000);
+    border-radius: 4px;
+    box-shadow: 0 -1px 1px #666 inset;
+}
